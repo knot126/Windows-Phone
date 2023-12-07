@@ -1,5 +1,7 @@
 # Windows Device Recovery Tool update bypass
 
+> Edit: I recommend setting up Windows 7 in a virtual machine instead, WDRT seems to work better that way.
+
 While the Windows Device Recovery Tool installer got unbroken back in mid-2023 again, it seems like WDRT itself cannot find the servers to check for updates properly. This means WDRT itself will refuse to run, unless of course you disable the update check which is easy since *there is a build-time option for it that microsoft chose not to make toggleable*.
 
 ## How to
